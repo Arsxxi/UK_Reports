@@ -143,7 +143,6 @@ namespace lapor
                 }
             }
         }
-
         // Fungsi tambahan untuk membersihkan form kanan setelah hapus
         private void ResetForm()
         {
