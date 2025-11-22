@@ -61,7 +61,7 @@
             this.txtNim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.txtNim.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNim.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNim.Location = new System.Drawing.Point(540, 259);
+            this.txtNim.Location = new System.Drawing.Point(554, 270);
             this.txtNim.Name = "txtNim";
             this.txtNim.Size = new System.Drawing.Size(128, 14);
             this.txtNim.TabIndex = 5;
@@ -72,7 +72,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("HP Simplified Hans", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(477, 259);
+            this.label4.Location = new System.Drawing.Point(491, 270);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 21;
@@ -83,7 +83,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("HP Simplified Hans", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(454, 298);
+            this.label5.Location = new System.Drawing.Point(468, 309);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 23;
@@ -94,7 +94,7 @@
             this.txtFac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.txtFac.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtFac.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFac.Location = new System.Drawing.Point(542, 297);
+            this.txtFac.Location = new System.Drawing.Point(556, 308);
             this.txtFac.Name = "txtFac";
             this.txtFac.Size = new System.Drawing.Size(119, 14);
             this.txtFac.TabIndex = 24;
@@ -105,7 +105,7 @@
             this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(540, 335);
+            this.txtUser.Location = new System.Drawing.Point(554, 346);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(124, 14);
             this.txtUser.TabIndex = 27;
@@ -116,7 +116,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("HP Simplified Hans", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(446, 336);
+            this.label6.Location = new System.Drawing.Point(460, 347);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 13);
             this.label6.TabIndex = 26;
@@ -127,7 +127,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("HP Simplified Hans", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(446, 375);
+            this.label7.Location = new System.Drawing.Point(460, 386);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 13);
             this.label7.TabIndex = 29;
@@ -138,7 +138,7 @@
             this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(542, 374);
+            this.txtPass.Location = new System.Drawing.Point(556, 385);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(112, 14);
             this.txtPass.TabIndex = 30;
@@ -149,7 +149,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Prociono", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(66)))), ((int)(((byte)(193)))));
-            this.label1.Location = new System.Drawing.Point(512, 151);
+            this.label1.Location = new System.Drawing.Point(526, 162);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 29);
@@ -162,7 +162,7 @@
             this.Nama.AutoSize = true;
             this.Nama.BackColor = System.Drawing.Color.White;
             this.Nama.Font = new System.Drawing.Font("HP Simplified Hans", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nama.Location = new System.Drawing.Point(468, 223);
+            this.Nama.Location = new System.Drawing.Point(482, 234);
             this.Nama.Name = "Nama";
             this.Nama.Size = new System.Drawing.Size(43, 13);
             this.Nama.TabIndex = 7;
@@ -173,7 +173,7 @@
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtName.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(542, 222);
+            this.txtName.Location = new System.Drawing.Point(556, 233);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(126, 14);
             this.txtName.TabIndex = 13;
@@ -187,7 +187,7 @@
             this.btnDaftar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDaftar.Font = new System.Drawing.Font("HP Simplified", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDaftar.ForeColor = System.Drawing.Color.White;
-            this.btnDaftar.Location = new System.Drawing.Point(558, 420);
+            this.btnDaftar.Location = new System.Drawing.Point(572, 431);
             this.btnDaftar.Name = "btnDaftar";
             this.btnDaftar.Size = new System.Drawing.Size(80, 29);
             this.btnDaftar.TabIndex = 6;
@@ -199,7 +199,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.Image = global::lapor.Properties.Resources.submit;
-            this.pictureBox6.Location = new System.Drawing.Point(528, 365);
+            this.pictureBox6.Location = new System.Drawing.Point(542, 376);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(151, 33);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -210,7 +210,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.Image = global::lapor.Properties.Resources.submit;
-            this.pictureBox5.Location = new System.Drawing.Point(528, 326);
+            this.pictureBox5.Location = new System.Drawing.Point(542, 337);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(151, 33);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -221,7 +221,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.White;
             this.pictureBox4.Image = global::lapor.Properties.Resources.submit;
-            this.pictureBox4.Location = new System.Drawing.Point(528, 288);
+            this.pictureBox4.Location = new System.Drawing.Point(542, 299);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(151, 33);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -233,7 +233,7 @@
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.White;
             this.pictureBox7.Image = global::lapor.Properties.Resources.marco;
-            this.pictureBox7.Location = new System.Drawing.Point(544, 420);
+            this.pictureBox7.Location = new System.Drawing.Point(558, 431);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(120, 38);
             this.pictureBox7.TabIndex = 32;
@@ -243,7 +243,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Image = global::lapor.Properties.Resources.submit;
-            this.pictureBox3.Location = new System.Drawing.Point(528, 252);
+            this.pictureBox3.Location = new System.Drawing.Point(542, 263);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(151, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -254,7 +254,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.Image = global::lapor.Properties.Resources.submit;
-            this.pictureBox2.Location = new System.Drawing.Point(528, 213);
+            this.pictureBox2.Location = new System.Drawing.Point(542, 224);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(151, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -265,7 +265,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::lapor.Properties.Resources.Rectangle_27;
-            this.pictureBox1.Location = new System.Drawing.Point(428, 99);
+            this.pictureBox1.Location = new System.Drawing.Point(442, 110);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(341, 435);
             this.pictureBox1.TabIndex = 16;
