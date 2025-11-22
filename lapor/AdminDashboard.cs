@@ -105,5 +105,53 @@ namespace lapor
                               // maka saat ini ditutup, otomatis akan kembali ke Login Form.
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            // 1. Validasi: Apakah sudah ada baris yang dipilih?
+            if (selectedId == -1)
+            {
+                MessageBox.Show("Silahkan pilih data yang ingin dihapus pada tabel terlebih dahulu.", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 2. Konfirmasi: Tanya user yakin atau tidak
+            DialogResult dialog = MessageBox.Show("Apakah Anda yakin ingin MENGHAPUS laporan ini secara permanen?\nData yang dihapus tidak bisa dikembalikan.",
+                                                  "Konfirmasi Hapus",
+                                                  MessageBoxButtons.YesNo,
+                                                  MessageBoxIcon.Warning);
+
+            // 3. Eksekusi Hapus jika user pilih YES
+            if (dialog == DialogResult.Yes)
+            {
+                try
+                {
+                    string q = "DELETE FROM reports WHERE id = @id";
+                    MySqlParameter[] p = { new MySqlParameter("@id", selectedId) };
+
+                    DbHelper.ExecuteNonQuery(q, p);
+
+                    MessageBox.Show("Data berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // 4. Reset Tampilan
+                    LoadData();         // Refresh tabel
+                    ResetForm();        // Kosongkan inputan kanan
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Gagal menghapus data: " + ex.Message);
+                }
+            }
+        }
+
+        // Fungsi tambahan untuk membersihkan form kanan setelah hapus
+        private void ResetForm()
+        {
+            selectedId = -1;
+            txtFeed.Clear();
+            pbBukti.Image = null;
+            lblInfo.Text = "Pilih laporan...";
+            cmbStatus.SelectedIndex = -1;
+        }
     }
 }
