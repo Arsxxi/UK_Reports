@@ -25,5 +25,60 @@ namespace lapor
             MessageBox.Show("Pendaftaran Berhasil! Silahkan Login.");
             this.Close();
         }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roundedTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roundedTextBox1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNim_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
